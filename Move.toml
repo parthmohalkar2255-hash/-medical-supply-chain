@@ -1,0 +1,15 @@
+[package]
+name = "medical-supply-chain"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MedicalChain = "0x49a412517e04faeaa7caca58c3fdf36e0ac59c4d442a3cfb17a709c6fb2df020"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
